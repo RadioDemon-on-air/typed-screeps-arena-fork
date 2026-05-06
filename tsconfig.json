@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "game/*": ["typed-screeps-arena-fork-develop/dist/game/*"],
+            "arena/*": ["typed-screeps-arena-fork-develop/dist/arena/*"]
+        },
+        "strict": true
+    },
+    "include": ["src/**/*", "typed-screeps-arena-fork-develop/index.d.ts"]
+}
